@@ -873,7 +873,7 @@
 
         .mobile-nav-link {
             color: #ffffff;
-            font-size: 14px; /* Matches the brand font size */
+            font-size: 18px; /* Matches the brand font size */
             font-weight: 600;
             text-decoration: none;
             display: block;
@@ -885,6 +885,20 @@
 
         .mobile-nav-link:hover {
             color: #ffeb00;
+        }
+
+        /* --- BRAND LOGO IMAGE --- */
+        .site-logo-img {
+            height: 50px; /* Adjust this number to make it bigger or smaller */
+            width: auto;
+            display: block;
+        }
+
+        /* Slightly smaller logo on mobile phones */
+        @media (max-width: 1024px) {
+            .site-logo-img {
+                height: 40px; 
+            }
         }
 
         
